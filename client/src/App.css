@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.source-data,
+.database {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.source-data-element,
+.database-element {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
